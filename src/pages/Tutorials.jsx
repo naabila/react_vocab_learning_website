@@ -6,6 +6,7 @@ function Tutorials() {
     <>
       <div className="container mx-auto">
         <PageBanner text="Tutorials" />
+
       </div>
     </>
   )
