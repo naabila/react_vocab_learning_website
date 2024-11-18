@@ -18,7 +18,7 @@ const navigate=useNavigate()
      <div className="container mx-auto">
      <PageBanner text={`Lesson ${lesson_no}`} ></PageBanner>
      <div className='mt-20'>
-      <SectionHeader preHeading='Sorted' heading="vocabulary Vault" subHeading="Explore lessons categorized for focused and effective language learning." />
+      <SectionHeader preHeading='Sorted' heading="Vocabulary Vault" subHeading="Explore lessons categorized for focused and effective language learning." />
      </div>
      {/* lesson cards */}
      <div className="grid animate__animated animate__fadeIn animation__duration-3000 mt-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -41,6 +41,7 @@ const navigate=useNavigate()
         })
       }
      </div>
+    
      </div>
     </>
   )
