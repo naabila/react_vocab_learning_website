@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FaGlobeAsia } from "react-icons/fa";
 import Button from './Button';
+import { AuthContext } from '../utils/AuthContextProvider';
 function Header() {
+  const{user,logoutUser}=useContext(AuthContext);
+  //Logout User
+  const handleSignOut=()=>{
+    logoutUser();
+  }
 
   const links=<>
     <NavLink className={({isActive})=>isActive?"text-lightBlue":"text-deepBlue"} to='/'>Home</NavLink>
@@ -45,7 +51,19 @@ function Header() {
     </ul>
   </div>
   <div className="navbar-end">
+  {
+    user? <button className='btn bg-lightBlue text-white' onClick={handleSignOut} >Signout</button>
+    :<Link to='/login'>
+    <button className='btn bg-lightBlue text-white'>Login</button>
+    </Link>
+  }
+    {/* {user ? (
+      <button className='btn bg-lightBlue text-white' onClick={handleSignOut} >Signout</button>
+) : (
+  <Link to="/login">
     <Button btnText="Login" />
+  </Link>
+)} */}
   </div>
 </div>
       </div>
