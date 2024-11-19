@@ -4,7 +4,7 @@ import bgOverlay from "../assets/background.png";
 function PageBanner({ text }) {
   return (
     <div
-      className="hero h-[200px] bg-lightBlue/50 text-deepBlue font-semibold"
+      className="hero h-[300px] bg-lightBlue/50 text-deepBlue font-semibold"
       style={{ backgroundImage: `url(${bgOverlay})`, backgroundSize: "cover", backgroundPosition: "top center" }}
     >
       <div className="hero-overlay bg-opacity-50 bg-white"></div>

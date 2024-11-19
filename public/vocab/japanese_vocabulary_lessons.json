@@ -5,7 +5,7 @@
         "pronunciation": "konnichiwa",
         "meaning": "hello",
         "part_of_speech": "interjection",
-        "difficulty": "easy",
+        "difficulty": "hard",
         "lesson_no": 5,
         "when_to_say": "When greeting someone during the day.",
         "example": "こんにちは、元気ですか？ (konnichiwa, genki desu ka?) - Hello, how are you?"
@@ -841,7 +841,7 @@
         "pronunciation": "arigatou",
         "meaning": "thank you",
         "part_of_speech": "interjection",
-        "difficulty": "easy",
+        "difficulty": "hard",
         "lesson_no": 3,
         "when_to_say": "When expressing gratitude.",
         "example": "プレゼントをありがとう。 (purezento o arigatou) - Thank you for the gift."
@@ -918,7 +918,7 @@
         "pronunciation": "hashiru",
         "meaning": "to run",
         "part_of_speech": "verb",
-        "difficulty": "medium",
+        "difficulty": "hard",
         "lesson_no": 5,
         "when_to_say": "When describing someone or something running.",
         "example": "毎朝公園で走る。 (maiasa kouen de hashiru) - I run in the park every morning."
@@ -984,7 +984,7 @@
         "pronunciation": "shizuka",
         "meaning": "quiet",
         "part_of_speech": "adjective",
-        "difficulty": "medium",
+        "difficulty": "hard",
         "lesson_no": 6,
         "when_to_say": "When describing a quiet environment or person.",
         "example": "図書館はとても静かだ。 (toshokan wa totemo shizuka da) - The library is very quiet."
@@ -1028,7 +1028,7 @@
         "pronunciation": "hashiru",
         "meaning": "to run",
         "part_of_speech": "verb",
-        "difficulty": "medium",
+        "difficulty": "hard",
         "lesson_no": 5,
         "when_to_say": "When describing someone or something running.",
         "example": "毎朝公園で走る。 (maiasa kouen de hashiru) - I run in the park every morning."
@@ -1094,7 +1094,7 @@
         "pronunciation": "shizuka",
         "meaning": "quiet",
         "part_of_speech": "adjective",
-        "difficulty": "medium",
+        "difficulty": "hard",
         "lesson_no": 1,
         "when_to_say": "When describing a quiet environment or person.",
         "example": "図書館はとても静かだ。 (toshokan wa totemo shizuka da) - The library is very quiet."
@@ -1149,7 +1149,7 @@
         "pronunciation": "shizuka",
         "meaning": "quiet",
         "part_of_speech": "adjective",
-        "difficulty": "medium",
+        "difficulty": "hard",
         "lesson_no": 10,
         "when_to_say": "When describing a quiet environment or person.",
         "example": "図書館はとても静かだ。 (toshokan wa totemo shizuka da) - The library is very quiet."
@@ -1556,7 +1556,7 @@
         "pronunciation": "arigatou",
         "meaning": "thank you",
         "part_of_speech": "interjection",
-        "difficulty": "easy",
+        "difficulty": "hard",
         "lesson_no": 4,
         "when_to_say": "When expressing gratitude.",
         "example": "プレゼントをありがとう。 (purezento o arigatou) - Thank you for the gift."
@@ -1633,7 +1633,7 @@
         "pronunciation": "hashiru",
         "meaning": "to run",
         "part_of_speech": "verb",
-        "difficulty": "medium",
+        "difficulty": "hard",
         "lesson_no": 1,
         "when_to_say": "When describing someone or something running.",
         "example": "毎朝公園で走る。 (maiasa kouen de hashiru) - I run in the park every morning."

@@ -10,6 +10,8 @@ import Tutorials from "../pages/Tutorials";
 import Profile from "../pages/Profile";
 import LessonCards from "../components/lessonCard/LessonCards"
 import MatchedLesson from "../pages/MatchedLesson";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -49,8 +51,20 @@ console.log('Data:', paramsData);
         element:<Tutorials></Tutorials>
       },
       {
+        path:"/login",
+        element:<Login></Login>
+      },
+      {
+        path:"/register",
+        element:<Register></Register>
+      },
+      {
         path:"/profile",
         element:<Profile></Profile>
+      },
+      {
+        path:"*",
+        element:<h1>Error occured</h1>
       }
 
     ]

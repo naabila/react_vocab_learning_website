@@ -25,7 +25,16 @@ const navigate=useNavigate()
       {
         matchedData.map((data)=>{
           return(
-    <div key={data.id} className="card bg-lightBlue/20 text-darkBlue">
+            <div 
+  key={data.id} 
+  className={`card ${
+    data.difficulty === "easy"
+      ? "bg-green-500/20"
+      : data.difficulty === "medium"
+      ? "bg-yellow-600/40"
+      : "bg-red-600/60"
+  } text-darkBlue`}
+>
   <div className="card-body items-center text-center gap-3">
     <h2 className="card-title">{data.word}</h2>
     <p>Meaning: {data.meaning}</p>
