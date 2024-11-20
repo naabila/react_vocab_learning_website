@@ -62,6 +62,6 @@ npm or yarn
 To deploy this project run
 
 ```bash
-  npm run deploy
+  npm run dev
 ```
 
