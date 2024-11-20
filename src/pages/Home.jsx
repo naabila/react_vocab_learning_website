@@ -167,17 +167,16 @@ style={{ backgroundImage: `url(${bgOverlay})`, backgroundSize: "cover", backgrou
 >
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
         {/*  Image */}
-        <div className="lg:w-1/2 flex justify-center mb-10 lg:mb-0">
+        <div className=" lg:w-1/2 flex justify-center mb-10 lg:mb-0 animate__animated animate__fadeInLeft">
           <img
             src={learn}
-          
             alt="Person smiling"
             className="shadow-lg"
           />
         </div>
 
         {/* Right Side: Text and Features */}
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 animate__animated animate__fadeInRight">
           <h3 className="text-lightBlue mb-2">
             Join With Us
           </h3>

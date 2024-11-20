@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer className="footer footer-center bg-deepBlue text-white p-10 mt-16">
+    <footer className="footer footer-center bg-deepBlue text-white p-10">
     <aside>
     <Link to='/' className="px-3 flex items-center gap-2 font-bold text-white text-3xl"><FaGlobeAsia /> Lingo Bingo</Link>
       <p className="font-bold">
