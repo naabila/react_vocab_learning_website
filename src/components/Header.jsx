@@ -51,21 +51,20 @@ function Header() {
     </ul>
   </div>
   <div className="navbar-end">
+
   {
-    user? <button className='btn bg-lightBlue text-white' onClick={handleSignOut} >Signout</button>
+    user? <>
+    <p className='text-lightBlue font-semibold'>Welcome, {user.displayName}</p>
+    <img className='h-[50px] w-[50px] rounded-full mx-3' src={user.photoURL} alt="" />
+    <button className='btn bg-lightBlue text-white' onClick={handleSignOut} >Signout</button>
+    
+    </>
     :<Link to='/login'>
     <button className='btn bg-lightBlue text-white'>Login</button>
     </Link>
   }
-    {/* {user ? (
-      <button className='btn bg-lightBlue text-white' onClick={handleSignOut} >Signout</button>
-) : (
-  <Link to="/login">
-    <Button btnText="Login" />
-  </Link>
-)} */}
+   </div>
   </div>
-</div>
       </div>
     </>
   )

@@ -12,6 +12,9 @@ import LessonCards from "../components/lessonCard/LessonCards"
 import MatchedLesson from "../pages/MatchedLesson";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import PrivateRout from "./PrivateRout";
+import ErrorPage from "../pages/ErrorPage";
+import UpdateProfile from "../pages/UpdateProfile";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -43,7 +46,7 @@ const router = createBrowserRouter([
 console.log('Data:', paramsData);
           return paramsData
         },
-        element: <MatchedLesson></MatchedLesson>
+        element: <PrivateRout><MatchedLesson></MatchedLesson></PrivateRout>
        
       },
       {
@@ -60,11 +63,15 @@ console.log('Data:', paramsData);
       },
       {
         path:"/profile",
-        element:<Profile></Profile>
+        element:<PrivateRout><Profile></Profile></PrivateRout>
+      },
+      {
+        path:"/update-profile",
+        element: <PrivateRout><UpdateProfile></UpdateProfile></PrivateRout>
       },
       {
         path:"*",
-        element:<h1>Error occured</h1>
+        element:<ErrorPage></ErrorPage>
       }
 
     ]

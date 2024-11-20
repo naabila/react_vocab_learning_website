@@ -6,7 +6,7 @@ import { GoogleAuthProvider } from "firebase/auth";
 
 function Register() {
   const googlePtovider = new GoogleAuthProvider();
-  const { emailSignup, googleLogin } = useContext(AuthContext);
+  const { emailSignup, googleLogin,manageProfile } = useContext(AuthContext);
   const navigate = useNavigate();
 
   // Register (Email & Password Signup)
@@ -28,6 +28,7 @@ function Register() {
     emailSignup(email, password)
       .then((result) => {
         toast.success("User registered successfully");
+        manageProfile(name,photo)
         console.log(result.user);
         e.target.reset(); 
         navigate("/"); 
