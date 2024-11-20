@@ -3,10 +3,15 @@ import { Link, useLoaderData, useNavigate } from 'react-router-dom';
 import CountUp from "react-countup";
 import bannerBg from "../assets/jp.jpg" 
 import student from "../assets/student.jpg";
+import learn from "../assets/learn.jpg";
+import bgOverlay from "../assets/background.png";
 import videoThumbnail from "../assets/videoThumbnail.jpg"
 import SectionHeader from '../components/SectionHeader';
-import { FaCheck } from 'react-icons/fa';
+import { FaBook, FaCheck } from 'react-icons/fa';
 import Button from '../components/Button';
+import { TiTick } from 'react-icons/ti';
+import { IoBarChartSharp } from 'react-icons/io5';
+import { IoMdHappy } from 'react-icons/io';
 
 function Home() {
   
@@ -155,6 +160,87 @@ function Home() {
         </div>
       </div>
 </div>
+
+{/* Uniqe section 2 */}
+<section className="bg-lightBlue/20 py-20 px-8"
+style={{ backgroundImage: `url(${bgOverlay})`, backgroundSize: "cover", backgroundPosition: "top center" }}
+>
+      <div className="container mx-auto flex flex-col lg:flex-row items-center">
+        {/*  Image */}
+        <div className="lg:w-1/2 flex justify-center mb-10 lg:mb-0">
+          <img
+            src={learn}
+          
+            alt="Person smiling"
+            className="shadow-lg"
+          />
+        </div>
+
+        {/* Right Side: Text and Features */}
+        <div className="lg:w-1/2">
+          <h3 className="text-lightBlue mb-2">
+            Join With Us
+          </h3>
+          <h1 className="text-4xl lg:text-5xl font-bold text-deepBlue mt-4">
+            Find Out Why You Should Learn With Us
+          </h1>
+          <p className="text-gray-600 mb-8">
+          Embark on your journey to mastering Japanese with our expertly crafted courses designed for all skill levels.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Feature Cards */}
+            <div className="card shadow-md bg-base-100 p-4">
+              <div className="flex items-center">
+                <div className="text-primary text-3xl mr-4"><TiTick /></div>
+                <div>
+                  <h4 className="font-semibold">Create Account</h4>
+                  <p className="text-sm text-gray-500">
+                  Create an account to unlock personalized learning and track your progress effortlessly.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="card shadow-md bg-base-100 p-4">
+              <div className="flex items-center">
+                <div className="text-success text-3xl mr-4"><FaBook /></div>
+                <div>
+                  <h4 className="font-semibold">Select Course</h4>
+                  <p className="text-sm text-gray-500">
+                  Choose from a variety of courses tailored to your learning goals and interests
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="card shadow-md bg-base-100 p-4">
+              <div className="flex items-center">
+                <div className="text-warning text-3xl mr-4"><IoBarChartSharp /></div>
+                <div>
+                  <h4 className="font-semibold">Learn Your Skill</h4>
+                  <p className="text-sm text-gray-500">
+                    
+                  Explore inspiring success stories of learners who transformed their lives through our courses.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="card shadow-md bg-base-100 p-4">
+              <div className="flex items-center">
+                <div className="text-info text-3xl mr-4"><IoMdHappy /></div>
+                <div>
+                  <h4 className="font-semibold">Success Story</h4>
+                  <p className="text-sm text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 </>
   )
