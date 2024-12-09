@@ -34,7 +34,7 @@ Node.js (>=12.x)
 npm or yarn
 
 ```bash
-  git clone https://github.com/your-username/lingo-bingo.git
+  git clone https://github.com/naabila/react_vocab_learning_website.git
 
 ```
 ```bash
@@ -57,11 +57,5 @@ npm or yarn
 
 
 
-## Deployment
 
-To deploy this project run
-
-```bash
-  npm run dev
-```
 
