@@ -8,8 +8,7 @@ Lingo Bingo is an interactive language learning platform designed to help users 
 ## Live URL
 https://lingobingo0.netlify.app/ 
 
-## Key Features
-The project uses localStorage to store and retrieve cart data, allowing users to retain their cart items even when refreshing or revisiting the page. Utility functions are created to handle data in localStorage, such as adding, removing, and clearing cart items.
+
 
 ## Key Features
 - **Interactive Language Courses**: Courses designed for learners of all levels.
