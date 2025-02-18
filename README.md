@@ -7,6 +7,7 @@ Lingo Bingo is an interactive language learning platform designed to help users 
 
 ## Live URL
 https://lingobingo0.netlify.app/ 
+![Lingo Bingo Screenshot](https://github.com/naabila/react_vocab_learning_website/blob/master/Lingo-Bingo-02-19-2025_12_54_AM.png?raw=true)
 
 
 
